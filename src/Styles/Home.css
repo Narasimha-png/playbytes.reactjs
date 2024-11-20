@@ -1,0 +1,135 @@
+*{
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-div{
+    padding: 2.5vh;
+    border-bottom: 0.5px solid #D2D2D2;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.big-text{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+.grey-light{
+    color: #6E6E6E;
+}
+.small-text{
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    
+}
+.line-div{
+    height: 0.5px;
+    background-color: lightgray ;
+    margin: 5px;
+    flex-grow: 1;
+}
+.person-images{
+    display: flex;
+    align-items: center;
+}
+.question-text{
+    font-weight: 700;
+    font-size: 24px;
+}
+.previous-div{
+   
+    display: flex;
+    width: 100%;
+    margin: 2vh 0px 2vh 0px;
+    align-items: center;
+}
+.home-info{
+    padding: 0px 3vw;
+}
+.person-div{
+    display: flex;
+    cursor: pointer;
+    gap: 1rem;
+    margin-top: 1vw ;
+    padding: 18px 10px;
+    border: 1px solid #D2D2D2 ;
+    border-radius: 10px;
+  
+}
+.person-img{
+    width: 90px;
+    height: 90px;
+}
+.subquestion-text{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.friends-anchor{
+    color: #4592EC;
+}
+.person-aside-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.person-likes{
+    margin-left: 2vw;
+    height: 20px;
+}
+
+@media (min-width:415px) and (max-width:848px) {
+    
+    .subquestion-text{
+        font-size: 12px;
+    }
+    .person-img{
+        width: 68px;
+        height: 68px;
+    }
+    .question-text{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .big-text{
+        font-size: 18px;
+    }
+    .small-text{
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:415px) {
+    .person-likes > img{
+        width: 27px;
+        height: 17px;
+    }
+    .subquestion-text{
+        font-size: 10px;
+    }
+    .person-img{
+        width: 60px;
+        height: 60px;
+    }
+    .question-text{
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .big-text{
+        font-size: 14px;
+    }
+    .small-text{
+        font-size: 10px;
+    }
+    .person-likes{
+        margin-left: 0px;
+    }
+    
+}
+
