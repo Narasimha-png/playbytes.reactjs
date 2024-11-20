@@ -67,8 +67,12 @@ const LogInput = ()=> {
     <div className="error-msg">{error.length > 0 ? error : ""}</div>
   
    <button onClick={(e)=>{
-    if(userName.length == 0 )
-        setError("UserName must be specified") ;
+     if (userName.length === 0) {
+        setError("Username must be specified");
+    } else if (!/^[A-Za-z]+$/.test(userName)) {
+        setError("Username must contain only alphabetic characters");
+     
+    } 
     else if (pwd.length < 8) {
         setError("Password must contain at least 8 characters.");
       } else if (!/[A-Z]/.test(pwd)) {
