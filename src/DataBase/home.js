@@ -28,6 +28,36 @@ const Data = [
         "index" :5,
         "question":"What's the funniest thing you've ever accidentally said to a stranger?", 
         "people":18
+    },
+    {
+        "index" :6,
+        "question" :"If you could have any fictional character as a roommate, who would it be and why?",
+        "people":55
+    },
+    {
+        "index" :7,
+        "question" :"What's the funniest thing you've ever accidentally said to a stranger?",
+        "people":23
+    },
+    {
+        "index" :8,
+        "question":"What's the silliest thing you've ever believed?" , 
+        "people":18
+    }
+    , {
+        "index" :9,
+        "question":"What's the funniest thing you've ever accidentally said to a stranger?",
+        "people":23
+    },
+    {
+        "index" :10,
+        "question":"What's the silliest thing you've ever believed?" , 
+        "people":23
+    }
+    ,{
+        "index" :11,
+        "question":"What's the funniest thing you've ever accidentally said to a stranger?", 
+        "people":18
     }
 ]
 
