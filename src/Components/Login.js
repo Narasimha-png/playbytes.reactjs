@@ -69,7 +69,8 @@ const LogInput = ()=> {
    <button onClick={(e)=>{
      if (userName.length === 0) {
         setError("Username must be specified");
-    } else if (!/^[A-Za-z]+$/.test(userName)) {
+    } 
+    else if (!/^[A-Za-z]+$/.test(userName)) {
         setError("Username must contain only alphabetic characters");
      
     } 
@@ -90,9 +91,12 @@ const LogInput = ()=> {
 }
 const Login = () => (
     <>
+    <div className="login-main-div">
     <Ellipse />
     <Intro />
+    </div>
     <LogInput />
     </>
+    
 )
 export default Login ;
