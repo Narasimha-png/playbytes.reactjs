@@ -12,10 +12,12 @@ body{
 }
 .main-div{
     min-height: 32vh;
+
     display: flex;
     justify-content: space-around;
     background-color: #ACD3FF;
-    position: relative;
+    position: sticky;
+    top: 0px;
     
     
 }
